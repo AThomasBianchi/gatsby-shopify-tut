@@ -1,5 +1,15 @@
-import React from 'react';
+import styled from 'styled-components';
 
-export function ProductQuantityAdder() {
-  return <div>Prod Adder</div>
-};
+export const ProductQuantityAdderWrapper = styled.div`
+  margin-top: 20px;
+
+  > strong {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  > form {
+    display: flex;
+
+  }
+`;
